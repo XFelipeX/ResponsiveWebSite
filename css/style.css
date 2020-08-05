@@ -13,18 +13,20 @@ h6 {
   font-family: "Oxigen";
 }
 
-.clear-fix::after{
+.row::after, .clearfix::after{
   content: ' ';
   display: block;
   clear: both;
 }
 .button {
+  width: 7em;
   display: inline-block;
   padding: 0.9em 2.5em;
   background: #58c4c4;
   border-radius: 5px;
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
@@ -189,6 +191,18 @@ h6 {
   .top-content-title,.top-content-subtitle{
     color: white;
   }
+
+  .col-1-4{
+    width: 44%;
+    margin: 3%;
+    float: left;
+  }
+
+  .main-content-article .button{
+    float: right;
+  }
+
+ 
 }
 
 
